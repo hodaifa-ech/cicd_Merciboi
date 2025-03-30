@@ -10,6 +10,7 @@ terraform {
   backend "s3" {
     bucket         = "project-register"
     key            = "jenkins_server/terraform.tfstate"
+    
     region         = "us-east-2"
 
   }

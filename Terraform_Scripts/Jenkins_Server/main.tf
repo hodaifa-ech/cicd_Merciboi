@@ -6,3 +6,5 @@ resource "aws_instance" "JenkinsServer" {
 
   tags = {
     "Name" = "Jenkins-Server"
+  }
+}
